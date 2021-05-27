@@ -133,7 +133,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Cinfirm Password:</string>
+    <string>Confirm Password:</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit_confirm_password">

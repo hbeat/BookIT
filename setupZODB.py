@@ -32,3 +32,4 @@
 '''
 
 
+##pyuic5 -x file.ui -o filename.py
