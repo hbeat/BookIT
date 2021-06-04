@@ -8,12 +8,12 @@
 
    Import
     import ZODB, ZODB.FileStorage, persistent, BTrees.OOBTree, transaction
-
+    from ZODB import FileStorage, DB
    Connect DB
     storage = ZODB.FileStorage.FileStorage('nameDB.fs')
-    db = ZODB>DB(storage)
+    db = ZODB.DB(storage)
     connection = db.open()
-    root = connection.root
+    root = connection.root()
    
    To store data: do like dictionaries
     root.any_names = BTrees.OOBTree.Btree()
@@ -29,6 +29,8 @@
     temp_variable = root.classes['data-1']
     temp_variable.method_define_in_the_class(arguments)
     transaction.commit()
+    
+**Every time we edit data we need to call transaction.commit()**
 '''
 
 
