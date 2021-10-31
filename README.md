@@ -1,2 +1,0 @@
-# SEP_BookIT
-This is SOFTWARE ENGINEERING PRINCIPLE project
