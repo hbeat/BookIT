@@ -1,3 +1,3 @@
 # SEP_BookIT
-This is SOFTWARE ENGINEERING PRINCIPLE project
-You can run this program by login_window.py script.
+<h4>This is SOFTWARE ENGINEERING PRINCIPLE project</h4>
+<h4>You can run this program by login_window.py script.</h4>
